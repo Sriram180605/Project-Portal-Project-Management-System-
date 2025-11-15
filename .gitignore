@@ -1,0 +1,15 @@
+# General
+.DS_Store
+*.log
+npm-debug.log*
+
+# Backend (Express / Node)
+# Ignores this folder in /backend
+backend/node_modules
+backend/.env
+
+# Frontend (React)
+# Ignores this folder in /frontend
+frontend/node_modules
+frontend/build
+frontend/.env
